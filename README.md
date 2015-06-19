@@ -6,22 +6,22 @@ A boilerplate nodejs installation, up and running with websockets and express. C
 Installation:
 -------------
 
-1. Download and unzip the package.
-2. Store the folder somewhere on your computer where it won't get moved or deleted.
-3. Open your .bash_profile.
+* Download and unzip the package.
+* Store the folder somewhere on your computer where it won't get moved or deleted.
+* Open your .bash_profile.
 ```bash
 sudo pico ~/.bash_profile
 ```
-4. Insert the following at the bottom of your .bash_profile file (replacing the path with your computers path):
+* Insert the following at the bottom of your .bash_profile file (replacing the path with your computers path):
 ```bash
 # make a new default NodeJS installation
 alias nodeplate='. /__PATH__/__TO__/__NODE_PLATE__/defaultNodeInstall.sh'
 ```
-5. Close your editor and re-source your terminal.
+* Close your editor and re-source your terminal.
 ```bash
 source ~/.bash_profile
 ```
-6. Now 'cd' to your working directory and run (follow the instructions):
+* Now 'cd' to your working directory and run (follow the instructions):
 ```bash
 nodeplate
 ```
